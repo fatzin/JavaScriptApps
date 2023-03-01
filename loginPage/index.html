@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="jokes" id="place-div">
+      <div class="welcome-text">
+        <p>Bem-vindo ao nosso site. Bla bla bla bla bla bla bla bla bla bla bla bla
+          Bla bla bla bla bla bla bla bla bla bla bla bla
+         </p>
+      </div>
+      <button id="change">Já sou cadastrado</button>
+    </div>
+      <section>
+          <div class="login-form">
+              <form>
+                  <p>Email</p>
+                  <input type="text" class="password" placeholder="Insira o seu email"> 
+                  <p>Senha</p>
+                  <input type="text" class="email" placeholder="Insira a sua senha">
+                  <button>Log In</button>
+              </form>
+          </div>
+          <div class="register-form">
+              <form action="">
+                  <p>Email</p>
+                  <input type="text" class="reg-email" placeholder="Insira o seu email" required>
+                  <p>Confirmar email</p>
+                  <input type="text" class="reg-email" placeholder="Confirme o seu email" autocomplete="off" onpaste="return false" ondrop="return false" required>
+                  <p>Senha</p>
+                  <input type="text" class="reg-password" placeholder="Insira a sua senha" onpaste="return false" ondrop="return false" required>
+                  <p>Confirmar senha</p>
+                  <input type="text" class="confirm-password" placeholder="Confirme a sua senha" required> 
+                  <p>Data de nascimento</p>
+                  <input type="date" class="birthday" required>
+                  <button id="register">Registrar</button>
+              </form>
+          </div>
+      </section>
+    <script src="script.js"></script>
+  </body>
+</html>
